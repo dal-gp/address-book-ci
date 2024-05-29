@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ContactManagerTest {
     private ContactManager contactManager;
-    private Contact[] contacts = {
+    private final Contact[] contacts = {
             new Contact("John", "Doe", "johndoe@example.com", "0423423423"),
             new Contact("Jane", "Doe", "janedoe@example.com", "0423423424"),
             new Contact("Jay", "Doe", "jaydoe@example.com", "0423423425"),
